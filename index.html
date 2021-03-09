@@ -459,7 +459,7 @@
 
 		<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> 
 
-		<form action="" method="POST">
+		<form action="http://127.0.0.1:8887" method="POST">
 			<div>
 				<label for="first_name">Primeiro nome</label>
 				<input name="first_name" type="text"><br>
@@ -471,14 +471,8 @@
 			</div>
 			
 			<div>
-				<input type="submit"><br>
-				<button href>Log in</button><br>	
-			</div>
-			
-			<div>
-				<input type="checkbox"><br>
-				<input type="radio"><br>
-				<select>
+				<label for="year_application">Ano de entrada</label>
+				<select name="year_application">
 					<option>2021</option>
 					<option>2020</option>
 					<option>2019</option>
@@ -486,6 +480,21 @@
 					<option>2017</option>
 					<option>2016</option>
 				</select>
+			</div>
+
+			<div>
+				<label for="18">Maior de 18 anos?</label>
+				<input name="18" type="checkbox"><br>
+			</div>
+
+			<div>
+				<input type="submit"><br>
+				<button href>Log in</button><br>	
+			</div>
+			
+			<div>
+				<label for="newsletter">Newsletter</label>
+				<input name="newsletter" type="checkbox"><br>
 			</div>
 			
 		</form>
