@@ -1,0 +1,51 @@
+html {
+    height: 100%;
+}
+
+h1 {
+    color: red;
+    border: 3px solid cyan;
+    width: 145px;
+}
+
+h2 {
+    color: crimson;
+    border: 3px solid indigo;
+    width: 115px;
+}
+
+h3 {
+    color: darkred;
+    border: 3px solid teal;
+    width: 85px;
+}
+
+h4 {
+    color: lightcoral;
+    border: 3px solid turquoise;
+    width: 75px;
+}
+
+h5 {
+    color: tomato;
+    border: 3px solid aquamarine;
+    width: 65px;
+}
+
+h6 {
+    color: firebrick;
+    border: 3px solid slateblue;
+    width: 55px;
+}
+
+p {
+    color: aqua;
+}
+
+form {
+    color: chocolate;
+}
+
+button, input {
+    color: cornflowerblue;
+}
