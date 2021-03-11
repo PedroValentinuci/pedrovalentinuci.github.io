@@ -1,29 +1,30 @@
 html {
     height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
     color: red;
     border: 3px solid cyan;
-    width: 145px;
+    width: 160px;
 }
 
 h2 {
     color: crimson;
     border: 3px solid indigo;
-    width: 115px;
+    width: 120px;
 }
 
 h3 {
     color: darkred;
     border: 3px solid teal;
-    width: 85px;
+    width: 95px;
 }
 
 h4 {
     color: lightcoral;
     border: 3px solid turquoise;
-    width: 75px;
+    width: 80px;
 }
 
 h5 {
@@ -38,12 +39,24 @@ h6 {
     width: 55px;
 }
 
+.hs_intro {
+    text-align: center;
+}
+
 p {
     color: aqua;
 }
 
+.people_table {
+    border: 1px solid black;
+    width: 220px;
+}
+
 form {
     color: chocolate;
+    border: 1px solid black;
+    width: 200px;
+    text-align: center;
 }
 
 button, input {
