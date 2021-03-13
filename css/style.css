@@ -10,8 +10,9 @@ html {
     width: 300px;
 }
 
-p {
-    color: aqua;
+.cars_title, .motos_title {
+    color: cornflowerblue;
+    text-decoration: underline;
 }
 
 .people_table {
@@ -43,4 +44,8 @@ button, input {
 
 img {
     width: 400px;
+}
+
+p {
+    color: aqua;
 }
