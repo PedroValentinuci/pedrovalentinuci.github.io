@@ -38,8 +38,9 @@ button, input {
 .pag2_h {
     text-align: center;
     width: 12px;
+    color: blueviolet;
 }
 
-.pag2_h {
-    color: blueviolet;
+img {
+    width: 400px;
 }
