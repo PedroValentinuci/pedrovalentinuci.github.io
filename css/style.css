@@ -15,9 +15,23 @@ html {
     text-decoration: underline;
 }
 
+.chevrolet_title, .ford_title, .volkswagen_title, .honda1_title, 
+.mercedes_title, .bmw_title, .porsche_title, .audi_title, 
+.lamborghini_title, .ferrari_title, .maserati_title, .aston_martin_title {
+    text-decoration: underline;
+}
+
+.honda_title, .ducati_title, .triumph_title, .ktm_title, .suzuki_title,
+.kawasaki_title, .yamaha_title, .harley_davidson_title {
+    text-decoration: underline;
+}
+
 .people_table {
     border: 1px solid black;
     width: 220px;
+}
+th {
+    text-decoration: underline;
 }
 
 form {
