@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/ccs_aula2.css">
+        <title>Aula 2</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="page-title">
+                Calculadora
+            </h1>
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-calculadora.svg" class="page-logo"
+                alt="">
+            <div class="calculadora">
+            </div>
+        </div>
+        <a href="https://alura.com.br/" target="_blank">
+            <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        </a>
+        <h4></h4>
+
+        <script>
+            var firstPokemon = prompt("Digite o pokemon a ser evoluído(em inglês):")
+
+            if (firstPokemon == "Bulbasaur") {
+                var evolutionType = prompt("1 para 1ª evolução, 2 para 2ª evolução")
+                if (evolutionType == 1) {
+                    document.write("<h2>" + "Ivysaur" + "</h2>")
+                } else if (evolutionType == 2) {
+                    document.write("<h2>" + "Venusaur" + "</h2>")  
+                } else {
+                    document.write("Opção invalida")
+                }   
+            } else if (firstPokemon == Charmander) {
+                var evolutionType2 = prompt("1 para 1ª evolução, 2 para 2ª evolução")
+                if (evolutionType2 == 1) {
+                    document.write("<h2>" + "Charmeleon" + "</h2>")
+                } else if (evolutionType2 == 2) {
+                    document.write("<h2>" + "Charizard" + "</h2>")
+                }
+            }
+
+        </script>
+    </body>
+</html>
