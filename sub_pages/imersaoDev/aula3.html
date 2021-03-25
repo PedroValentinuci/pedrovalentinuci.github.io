@@ -23,59 +23,25 @@
         </a>
 
         <script>
-            var secretNum = 3
-            var option = parseInt(prompt("Digite um número entre 0 e 10"))
+            var secretNumber = parseInt(Math.random * 10)
+            var chances = 3
 
-            if (secretNum == option) {
-                console.log("Boa!!")
-            } else if (option > 10) {
-                console.log("Número invalido meu querido")
-            } else if (secretNum > option) {
-                console.log("Um pouco maior")
-                var secondOption = parseInt(prompt("Digite sua segunda opção"))
-                if (secretNum == secondOption) {
-                    console.log("Na segunda mas foi!")
-                } else if (secretNum > secondOption) {
-                    console.log("Um pouco maior")
-                    var thirdOption = parseInt(prompt("Digite sua ultima opção"))
-                    if (secretNum == thirdOption) {
-                        console.log("Quase não foi mas foi")
-                    } else {
-                        console.log("Não foi dessa vez!")
-                    }
-                } else if (secretNum < secondOption) {
-                    console.log("Um pouco menor")
-                    var thirdOption = parseInt(prompt("Digite sua ultima opção"))
-                    if (secretNum == thirdOption) {
-                        console.log("Quase não foi mas foi")
-                    } else {
-                        console.log("Não foi dessa vez!")
-                    }
-                }
-            } else if (secretNum < option) {
-                console.log("Um pouco menor")
-                var secondOption = parseInt(prompt("Digite sua segunda opção"))
-                if (secretNum == secondOption) {
-                    console.log("Na segunda mas foi!")
-                } else if (secretNum > secondOption) {
-                    console.log("Um pouco maior")
-                    var thirdOption = parseInt(prompt("Digite sua ultima opção"))
-                    if (secretNum == thirdOption) {
-                        console.log("Quase não foi mas foi")
-                    } else {
-                        console.log("Não foi dessa vez!")
-                    }
-                } else if (secretNum < secondOption) {
-                    console.log("Um pouco menor")
-                    var thirdOption = parseInt(prompt("Digite sua ultima opção"))
-                    if (secretNum == thirdOption) {
-                        console.log("Quase não foi mas foi")
-                    } else {
-                        console.log("Não foi dessa vez!")
-                    }
-                }
-            } else {
-                console.log("Número invalido meu querido")
+            while (chances > 0) {
+                var option = parseInt(prompt("Digite um número entre 0 e 9"))
+                if (option == secretNumber) {
+                    alert("Parabéns")
+                    break
+                } else if (option > secretNumber) {
+                    alert("Um pouco menor")
+                    chances = chances - 1
+                } else if (option < secretNumber) {
+                    alert("Um pouco maior")
+                    chances = chances - 1
+                }               
+            }
+
+            if (option != secretNumber) {
+                alert("Cabô, o número era " + secretNumber)
             }
         </script>
     </body>
