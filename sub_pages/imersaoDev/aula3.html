@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/css_aula3.css">
+        <title>Aula 3</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="page-title">
+                Mentalista
+            </h1>
+            <p class="page-subtitle">
+                Digite um número de 0 a 10
+            </p>
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-mentalista.svg" class="page-logo"
+                alt="">
+        </div>
+        <a href="https://alura.com.br/" target="_blank">
+            <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        </a>
+
+        <script>
+            var secretNum = 3
+            var option = parseInt(prompt("Digite um número entre 0 e 10"))
+
+            if (secretNum == option) {
+                console.log("Boa!!")
+            } else if (option > 10) {
+                console.log("Número invalido meu querido")
+            } else if (secretNum > option) {
+                console.log("Um pouco maior")
+                var secondOption = parseInt(prompt("Digite sua segunda opção"))
+                if (secretNum == secondOption) {
+                    console.log("Na segunda mas foi!")
+                } else if (secretNum > secondOption) {
+                    console.log("Um pouco maior")
+                    var thirdOption = parseInt(prompt("Digite sua ultima opção"))
+                    if (secretNum == thirdOption) {
+                        console.log("Quase não foi mas foi")
+                    } else {
+                        console.log("Não foi dessa vez!")
+                    }
+                } else if (secretNum < secondOption) {
+                    console.log("Um pouco menor")
+                    var thirdOption = parseInt(prompt("Digite sua ultima opção"))
+                    if (secretNum == thirdOption) {
+                        console.log("Quase não foi mas foi")
+                    } else {
+                        console.log("Não foi dessa vez!")
+                    }
+                }
+            } else if (secretNum < option) {
+                console.log("Um pouco menor")
+                var secondOption = parseInt(prompt("Digite sua segunda opção"))
+                if (secretNum == secondOption) {
+                    console.log("Na segunda mas foi!")
+                } else if (secretNum > secondOption) {
+                    console.log("Um pouco maior")
+                    var thirdOption = parseInt(prompt("Digite sua ultima opção"))
+                    if (secretNum == thirdOption) {
+                        console.log("Quase não foi mas foi")
+                    } else {
+                        console.log("Não foi dessa vez!")
+                    }
+                } else if (secretNum < secondOption) {
+                    console.log("Um pouco menor")
+                    var thirdOption = parseInt(prompt("Digite sua ultima opção"))
+                    if (secretNum == thirdOption) {
+                        console.log("Quase não foi mas foi")
+                    } else {
+                        console.log("Não foi dessa vez!")
+                    }
+                }
+            } else {
+                console.log("Número invalido meu querido")
+            }
+        </script>
+    </body>
+</html>
