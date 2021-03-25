@@ -31,13 +31,13 @@
                 if (option == secretNumber) {
                     alert("Parabéns")
                     break
-                } else if (secretNumber < option) {
-                    alert("Um pouco menor")
+                } else if (option < secretNumber) {
+                    alert("O número é um pouco maior")
                     chances = chances - 1
-                } else if (secretNumber > option) {
-                    alert("Um pouco maior")
+                } else if (option > secretNumber) {
+                    alert("O número é um pouco menor")
                     chances = chances - 1
-                }               
+                }
             }
         </script>
     </body>
