@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/css_aula4.css">
+        <title>Aula 4</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="page-title">
+                Aluraflix
+            </h1>
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo"
+                alt="">
+        </div>
+        <a href="https://alura.com.br/" target="_blank">
+            <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        </a>
+
+        <script> //fazer uma lista que vc digite o nome do filme 
+        //e ele apareça o banner e um link que leve para a netflix / globoplay 
+            var films = ["https://m.media-amazon.com/images/M/MV5BMTcwNzAxMDU1M15BMl5BanBnXkFtZTgwNDE2NTU1MTE@._V1_UX182_CR0,0,182,268_AL_.jpg", 
+            "https://m.media-amazon.com/images/M/MV5BOTJiNDEzOWYtMTVjOC00ZjlmLWE0NGMtZmE1OWVmZDQ2OWJhXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_UX182_CR0,0,182,268_AL_.jpg", 
+            "https://m.media-amazon.com/images/M/MV5BMTQ1OTU0ODcxMV5BMl5BanBnXkFtZTcwOTMxNTUwOA@@._V1_UX182_CR0,0,182,268_AL_.jpg"]
+
+            for (let index = 0; index < films.length; index++) {
+                document.write("<img src=" + films[index] + ">")
+            }
+        </script>
+    </body>
+</html>
