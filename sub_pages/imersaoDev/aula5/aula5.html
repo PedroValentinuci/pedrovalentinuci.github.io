@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/css/css_aula5.css">
+        <link rel="stylesheet" href="/sub_pages/imersaoDev/aula5/css_aula5.css">
         <title>Aula 5</title>
     </head>
     <body>
@@ -26,19 +26,6 @@
         <a href="https://alura.com.br/" target="_blank">
             <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
         </a>
-        <script>
-            function addFilm() {
-                var favoriteFilmCamp = document.querySelector('#filme')
-                var favoriteFilm = favoriteFilmCamp.value 
-                document.write("<img src=" + favoriteFilm + ">")
-                listFilm(favoriteFilm)
-            }
-
-            function listFilm(filme) {
-                var filmList = document.querySelector('#filmList')
-                var filmElement = "<img src=" + filme + ">"
-                filmList.innerHTML = filmList.innerHTML + filmElement
-            }
-        </script>
+        <script src="aula5.js"></script>
     </body>
 </html>

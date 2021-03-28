@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt_BR">
+<html lang="pt-BR">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/css/css_aula3.css">
+        <link rel="stylesheet" href="/sub_pages/imersaoDev/aula3/css_aula3.css">
         <title>Aula 3</title>
     </head>
     <body>
@@ -22,23 +22,6 @@
             <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
         </a>
 
-        <script>
-            var secretNumber = parseInt(Math.random() * 10)
-            var chances = 3
-            
-            while (chances > 0) {
-                var option = parseInt(prompt("Digite um número entre 0 e 9"))
-                if (option == secretNumber) {
-                    alert("Parabéns")
-                    break
-                } else if (option < secretNumber) {
-                    alert("O número é um pouco maior")
-                    chances = chances - 1
-                } else if (option > secretNumber) {
-                    alert("O número é um pouco menor")
-                    chances = chances - 1
-                }
-            }
-        </script>
+        <script src="aula3.js"></script>
     </body>
 </html>
