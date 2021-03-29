@@ -1,12 +1,19 @@
-function addFilm() {
-    var favoriteFilmCamp = document.querySelector('#filme')
-    var favoriteFilm = favoriteFilmCamp.value 
-    document.write("<img src=" + favoriteFilm + ">")
-    listFilm(favoriteFilm)
+function adicionarFilme() {
+  
+    var campoFilmeFavorito = document.getElementById('filme')
+    console.log(campoFilmeFavorito)
+    
+    var filmeFavorito = campoFilmeFavorito.value
+    if (filmeFavorito.endsWith('.jpg')) {
+        listarFilmesNaTela(filmeFavorito)
+    } else {
+        alert("Imagem inválida")
+    }
+    campoFilmeFavorito.value = ""
 }
 
-function listFilm(filme) {
-    var filmList = document.querySelector('#filmList')
-    var filmElement = "<img src=" + filme + ">"
-    filmList.innerHTML = filmList.innerHTML + filmElement
+function listarFilmesNaTela(filme) {
+    var listaFilmes = document.querySelector('#listaFilmes')
+    var elementoFilme = "<img src=" + filme + ">"
+    listaFilmes.innerHTML = listaFilmes.innerHTML + elementoFilme
 }
