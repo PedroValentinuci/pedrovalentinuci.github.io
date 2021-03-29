@@ -40,7 +40,7 @@ body {
 }
 
 table {
-    border: 2px solid white;
+    border: 2px solid aquamarine;
     border-collapse: collapse;
 }
 
@@ -49,6 +49,6 @@ h1 {
 }
 
 th, tr, td {
-    border: solid 1px white;
-    color: white;
+    border: solid 1px aquamarine;
+    color: cornflowerblue;
 }
