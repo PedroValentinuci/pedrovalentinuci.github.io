@@ -66,6 +66,7 @@ function obtemAtributoSelecionado() {
 
 function jogar() {
     var atributoSelecionado = obtemAtributoSelecionado()
+    
     if (cartaJogador.atributos[atributoSelecionado] > cartaMaquina.atributos[atributoSelecionado]) {
         alert("Você venceu")
     } else if (cartaJogador.atributos[atributoSelecionado] < cartaMaquina.atributos[atributoSelecionado]) {
