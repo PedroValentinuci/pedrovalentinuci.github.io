@@ -7,7 +7,6 @@ var cartaPedro = {
         magia: 90        
     }
 }
-
 var cartaSophia = {
     nome: "Bulbasaur",
     imagem: "https://i.pinimg.com/originals/3b/78/47/3b7847675982776e5219e12a680ecd84.png",
@@ -17,7 +16,6 @@ var cartaSophia = {
         magia: 85       
     }
 }
-
 var cartaPlayer3 = {
     nome: "Lorde Darth Vader",
     imagem: "https://images-na.ssl-images-amazon.com/images/I/41i-0NH0q9L._SX328_BO1,204,203,200_.jpg",
@@ -28,7 +26,6 @@ var cartaPlayer3 = {
     }
 
 }
-
 var cartaMaquina
 var cartaJogador
 var cartas = [cartaPedro, cartaSophia, cartaPlayer3]
