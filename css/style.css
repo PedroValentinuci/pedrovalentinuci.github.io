@@ -1,3 +1,5 @@
+/* index.html */
+
 html {
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
@@ -62,4 +64,40 @@ img {
 
 p {
     color: maroon;
+}
+
+/* tests.html */
+
+.tests-body {
+    background-color: #1a1a1d;
+}
+
+.tests-center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    color: #c3073f;
+}
+
+.tests-center p {
+    color: #c3073f;
+    font-size: large;
+}
+
+.tests-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #c3073f;
+    text-align: center;
+}
+
+.tests-footer p, .tests-footer a {
+    color: white;
 }
