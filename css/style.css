@@ -11,6 +11,16 @@ html {
     border: 1px solid brown;
     width: 300px;
 }
+.portfolio {
+    border: 1px solid black;
+    width: fit-content;
+}
+
+.portfolio p{
+    color: black;
+    font-size: large;
+    margin: 50px;
+}
 
 .cars_title, .motos_title {
     color: cornflowerblue;
