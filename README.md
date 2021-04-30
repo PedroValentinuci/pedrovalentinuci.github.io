@@ -20,7 +20,8 @@
 
 
 # pedrovalentinuci.github.io - Português
- Esse códio é somente para meus estudos sobre programação então provavelmente tem muitos erros e coisas sem sentido mas um dia eu vou resolver tudo
+ Esse códio é somente para meus estudos sobre programação então provavelmente tem muitos erros e coisas sem sentido mas um dia eu vou resolver tudo.
+ O github-pages está ativado então você pode entra no site!!
 
 ## Tópicos
 
