@@ -1,12 +1,12 @@
 {
     "bracket-pair-colorizer-2.colors": [
-        "Gold",
-        "Orchid",
-        "LightSkyBlue",
-        "Salmon",
-        "LawnGreen",
-        "DarkOrange",
-        "Cornsilk"
+        "#F72585",
+        "#7209B7",
+        "#3A0CA3",
+        "#4361EE",
+        "#4CC9F0",
+        "6BD2F2",
+        "ECF9FD"
     ],
 
     "cSpell.ignoreWords": [
