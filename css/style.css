@@ -16,6 +16,10 @@ html {
     width: fit-content;
 }
 
+#course {
+    color: blueviolet;
+}
+
 .portfolio p{
     color: black;
     font-size: large;
