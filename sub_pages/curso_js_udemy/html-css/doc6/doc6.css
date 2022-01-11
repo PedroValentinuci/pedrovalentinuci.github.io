@@ -1,0 +1,31 @@
+* {
+    font-family: sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    align-items: center;
+}
+
+table caption {
+    text-align: end;
+    caption-side: bottom;
+    margin-top: 5px;
+}
+
+thead {
+    background-color: gainsboro;
+}
+
+tfoot {
+    background-color: gainsboro;
+}
+
+table td, table th {
+    width: 120px;
+    padding: 10px;
+    border: 1px solid gray;
+    text-align: center;
+    font-size: 20px;
+}
