@@ -29,7 +29,7 @@ table td, table th {
     font-size: 20px;
 }
 
-.responsive {
+.responsive-table {
     max-width: 100%;
     overflow-x: auto;
 }
