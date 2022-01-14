@@ -1,0 +1,9 @@
+* {
+    /* background-color: aquamarine; */
+    margin: 0;
+    padding: 0;
+}
+
+body div section p {
+    color: blueviolet;
+}
