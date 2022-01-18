@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+.pai {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(183, 134, 11);
+}
+
+p {
+    font-size:1.6rem;
+}
+
+.color-two {
+    background-color: rgb(64, 224, 208);
+}
+
+.color-three {
+    background-color: rgb(255, 99, 71);
+}
