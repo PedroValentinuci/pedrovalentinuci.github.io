@@ -1,0 +1,25 @@
+* {
+    font-family: sans-serif;
+}
+
+ul li::before {
+    content: ' - ';
+    background-color: blueviolet;
+}
+
+p::first-letter {
+    font-size: 50px;
+    font-family: serif;
+}
+
+p::first-line {
+    background-color: darkorchid;
+}
+
+p::selection {
+    background-color: darkred;
+}
+
+input::placeholder {
+    color: yellowgreen;
+}
