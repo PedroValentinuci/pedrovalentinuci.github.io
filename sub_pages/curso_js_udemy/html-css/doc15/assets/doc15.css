@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+}
+
+.pai {
+    height: 100vh;
+}
+
+.filha1, .filha2 {
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    
+    position: static;
+
+    background-color: #ff6347;
+
+}
+
+.filha1 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+}
+
+.filha2 {
+    position: absolute;
+    background-color: #ff5678;
+    z-index: 1;
+}
